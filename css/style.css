@@ -1,0 +1,85 @@
+
+@import url("Components/testimonials.css");
+
+body{
+  margin: 0px;
+  color: rgb(20, 20, 20);
+  background: rgb(245, 245, 245);
+}
+h1{
+  color: white;
+  font-family: gotham_mediumregular, 'Open Sans', sans-serif;
+}
+h2{
+  color: white;
+  font-family: gotham_mediumregular, 'Open Sans', sans-serif;
+}
+h3{
+  color: white;
+  font-family: gotham_mediumregular, 'Open Sans', sans-serif;
+}
+
+p{
+  font-size: 16px;
+  list-style: 20px;
+  font-family: gotham_mediumregular, 'Open Sans', sans-serif;
+}
+
+#my-header{
+  text-align: center;
+  padding: 100px 25px 100px 25px;
+  color:white;
+  background: url("http://www.carmenapp.com/wp-content/uploads/2017/01/Carmen-background-banner-header.png");
+  background-size:  cover;
+}
+#header-title{
+	padding-bottom: 50px;
+}
+#mc_embed_signup{
+  background: linear-gradient(-225deg, rgba(30,30,30,0.6) 30%, rgba(46,46,46,0.5) 80%);
+  padding: 20px;
+}
+#Signup{
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.feature{
+  font-weight: 300;
+  padding: 40;
+}
+
+.feature img{
+  padding: 20 px;
+  border: 2px solid black;
+  border-radius: 50%;
+}
+.button{
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: #C13352;
+  margin: 5px 25px 5px 25px
+}
+
+#my-footer{
+  padding: 30px;
+  background: rgb(30,30,30);
+  color: lightgrey;
+}
+#my-footer a {
+  color: lightgrey;
+  font-size: 25px;
+}
+#my-footer a:hover {
+  color: white;
+}
+@font-face {
+    font-family: 'gotham_mediumregular';
+    src: url('http://www.carmenapp.com/wp-content/themes/shore/highgrade/fonts/ufonts.com_gotham-medium-webfont.woff2') format('woff2'),
+         url('http://www.carmenapp.com/wp-content/themes/shore/highgrade/fonts/ufonts.com_gotham-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
